@@ -79,7 +79,6 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    background-color: #222;
     position: fixed;
     width: 100%;
     z-index: 999;
