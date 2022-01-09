@@ -11,6 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -220,10 +221,6 @@ section .title::after{
 }
 /* h+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++= styling */
 
-.home .left {
-
- 
-}
 /* h++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++= styling */
 
 .home .left img{
@@ -580,16 +577,21 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-    .home .left img{
-        margin-top: -230px;
-        margin-left: 75%; 
-    }
-    .about .about-content .left img{
-        height: 350px;
-        width: 350px;
-    }
+.home .left img{
+    margin-top: -230px;
+    margin-left: 75%; 
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 500px;
 }
-
+.about .about-content .left img{
+    height: 380px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+}
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
@@ -601,8 +603,18 @@ footer span a:hover{
 }
 @media (max-width: 947px){
     .home .left img{
-        margin-top: -130px;
-        margin-left: 70%;
+        margin-top: 6px;
+        margin-left: 65%;
+        height: 230px;
+        width: 230px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+    .about .about-content .left img{
+        height: 620px;
+        width: 620px;
+        object-fit: cover;
+        border-radius: 6px;
     }
     .menu-btn{
         display: block;
@@ -670,8 +682,18 @@ footer span a:hover{
 
 @media (max-width: 690px) {
     .home .left img{
-        margin-top: -5px;
-        margin-left: 60%;
+        margin-top: 15px;
+        margin-left: 45%;
+        height: 240px;
+        width: 240px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+    .about .about-content .left img{
+        height: 460px;
+        width: 460px;
+        object-fit: cover;
+        border-radius: 6px;
     }
     .max-width{
         padding: 0 23px;
@@ -691,9 +713,14 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+  
     .home .left img{
-        margin-top:  10px;
-        margin-left: 20%;
+        margin-top: 18px;
+        margin-left: 33%;
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 500px;
     }
     .home .home-content .text-2{
         font-size: 50px;
@@ -721,3 +748,54 @@ footer span a:hover{
         height: 38px;
         width: 35px;
         font-size: 23px;
+        line-height: 38px;
+    }
+}
+@media (max-width: 428px){
+    .home .left img{
+        margin-top: 22px;
+        margin-left: 30%;
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+    .about .about-content .left img{
+        height: 700px;
+        width: 700px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 375px){
+    .home .left img{
+        margin-top: 20px;
+        margin-left: 25%;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+}
+@media (max-width: 320px) {
+    
+    .home .left img{
+        margin-top: 0px;
+        margin-left: 30%;
+        height: 180px;
+        width: 180px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+    .about .about-content .left img{
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .services .title::after,
+    .teams .title::after{
+    background: #111;
+    content: "";
+}
+}
