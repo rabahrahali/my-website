@@ -483,6 +483,21 @@ section .title::after{
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
+.contact .contact-content .left .icons a{
+    
+
+
+
+
+ color: #000;
+
+
+
+
+
+
+}
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
