@@ -737,12 +737,10 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
 @media (max-width: 428px){
-    .home .left img{
- 
- 
-Leave a comment
-         margin-top: 22px;
+       .home .left img{
+        margin-top: 22px;
         margin-left: 30%;
         height: 280px;
         width: 280px;
@@ -750,8 +748,8 @@ Leave a comment
         border-radius: 500px;
     }
     .about .about-content .left img{
-        height: 700px;
-        width: 700px;
+        height: 420px;
+        width: 420px;
         object-fit: cover;
         border-radius: 6px;
     }
@@ -776,13 +774,15 @@ Leave a comment
         object-fit: cover;
         border-radius: 500px;
     }
-  
+    .about .about-content .left img{
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
     .services .title::after,
     .teams .title::after{
     background: #111;
     content: "";
 }
 }
-
- 
-
