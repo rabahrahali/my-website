@@ -320,7 +320,7 @@ if(isset($_POST['submit'])) {
         </div>
     </section>
 
-    <!-- footer section start -->
+    <!-- footer section begin -->
     <footer>
         <span>Created By <a href="https://www.linkedin.com/in/rabah-rahali/">Rabah RHL</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
