@@ -43,7 +43,7 @@ if(isset($_POST['submit'])) {
 
 
 <!DOCTYPE html>
-<!-- Created By rabah -->
+<!-- Created By Rahali Rabah -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -308,7 +308,9 @@ if(isset($_POST['submit'])) {
     <footer>
         <span>Created By <a href="https://www.linkedin.com/in/rabah-rahali/">Rabah RHL</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
+   <!-- footer section begin -->
     <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
