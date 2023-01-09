@@ -23,6 +23,7 @@ html{
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
+/*delet me */ 
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
