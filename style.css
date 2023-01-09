@@ -164,7 +164,9 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home section styling */ 
+/* just comment*/ 
+
 .home{
     display: flex;
     background-color: #050505;
